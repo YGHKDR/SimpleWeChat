@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/message_id">
+
+    <fragment
+        android:id="@+id/message_id"
+        android:name="com.example.simplewechat.ui.message.MessageFragment"
+        android:label="消息"
+        tools:layout="@layout/message_fragment" />
+
+    <fragment
+        android:id="@+id/friends_id"
+        android:name="com.example.simplewechat.ui.friends.FriendsFragment"
+        android:label="通讯录"
+        tools:layout="@layout/friends_fragment" />
+
+    <fragment
+        android:id="@+id/news_id"
+        android:name="com.example.simplewechat.ui.news.NewsFragment"
+        android:label="朋友圈"
+        tools:layout="@layout/news_fragment" />
+
+    <fragment
+        android:id="@+id/mine_id"
+        android:name="com.example.simplewechat.ui.mine.MineFragment"
+        android:label="我的"
+        tools:layout="@layout/mine_fragment" />
+</navigation>

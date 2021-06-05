@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.simplewechat.component.MessageSlideLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/content">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/friend_image"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:id="@+id/friend_text"
+            android:textSize="13sp"
+            android:textColor="@color/black"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:id="@+id/menu"
+            android:text="删除"
+            android:textSize="25sp"
+            android:background="#ff0000"
+            android:gravity="center"
+            android:padding="8dp" />
+
+
+    </com.example.simplewechat.component.MessageSlideLayout>

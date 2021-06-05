@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SimpleWeChat</string>
+    <string name="title_activity_indext">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_index">MainActivity</string>
+</resources>
